@@ -348,7 +348,7 @@ class Document(Photoshop):
         """
         return self.app.crop(bounds, angle, width, height)
 
-    def exportDocument(self, file_path: str, exportAs: ExportType, options: Union[ExportOptionsSaveForWeb]):
+    def exportDocument(self, file_path: str, exportAs: ExportType, options: ExportOptionsSaveForWeb):
         """Exports the Document.
 
         Note:

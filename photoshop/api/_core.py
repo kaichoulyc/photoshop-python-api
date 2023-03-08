@@ -59,7 +59,7 @@ class Photoshop(object):
         return f"{self.__class__.__name__} <{self._program_name}>"
 
     def __repr__(self):
-        return self
+        return f"{self.__class__.__name__} <{self._program_name}>"
 
     def __getattribute__(self, item):
         try:
